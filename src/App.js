@@ -1,24 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useEffect, useState} from 'react';
 import './App.css';
+import Cards from './cards/Cards';
+import Header from './Header';
 
 function App() {
+  const [matchesQuery, change]= useState(window.matchMedia("(max-width: 400px)").matches ? 'mobile' : 'pc');
+  const changeQuery = () => {
+    const matches = window.matchMedia("(max-width: 400px)").matches  ? 'mobile' : 'pc';
+    if(matches === matchesQuery){
+      return;
+    } else {
+      change(matches)
+    }
+  }
+  window.onresize = changeQuery;
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <Header matchesQuery={matchesQuery} />
+      <Cards matchesQuery={matchesQuery} />
     </div>
   );
 }
