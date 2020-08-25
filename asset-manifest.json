@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.caaf56a2.chunk.css",
-    "main.js": "/static/js/main.61f2bca3.chunk.js",
-    "main.js.map": "/static/js/main.61f2bca3.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
-    "static/css/2.11829350.chunk.css": "/static/css/2.11829350.chunk.css",
-    "static/js/2.493136c8.chunk.js": "/static/js/2.493136c8.chunk.js",
-    "static/js/2.493136c8.chunk.js.map": "/static/js/2.493136c8.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.c88787cff08afbdf44be7c76115aaf1a.js": "/precache-manifest.c88787cff08afbdf44be7c76115aaf1a.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.11829350.chunk.css.map": "/static/css/2.11829350.chunk.css.map",
-    "static/css/main.caaf56a2.chunk.css.map": "/static/css/main.caaf56a2.chunk.css.map",
-    "static/js/2.493136c8.chunk.js.LICENSE.txt": "/static/js/2.493136c8.chunk.js.LICENSE.txt",
-    "static/media/flyingcat.jpg": "/static/media/flyingcat.7bf834e5.jpg",
-    "static/media/myflyingcatapp.jpg": "/static/media/myflyingcatapp.78badf9a.jpg"
+    "main.css": "/portfolio/static/css/main.caaf56a2.chunk.css",
+    "main.js": "/portfolio/static/js/main.5d3c4b2f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.5d3c4b2f.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
+    "static/css/2.11829350.chunk.css": "/portfolio/static/css/2.11829350.chunk.css",
+    "static/js/2.493136c8.chunk.js": "/portfolio/static/js/2.493136c8.chunk.js",
+    "static/js/2.493136c8.chunk.js.map": "/portfolio/static/js/2.493136c8.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.2ab9bc337b09bff6883c115b741453d9.js": "/portfolio/precache-manifest.2ab9bc337b09bff6883c115b741453d9.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/portfolio/static/css/2.11829350.chunk.css.map",
+    "static/css/main.caaf56a2.chunk.css.map": "/portfolio/static/css/main.caaf56a2.chunk.css.map",
+    "static/js/2.493136c8.chunk.js.LICENSE.txt": "/portfolio/static/js/2.493136c8.chunk.js.LICENSE.txt",
+    "static/media/flyingcat.jpg": "/portfolio/static/media/flyingcat.7bf834e5.jpg",
+    "static/media/myflyingcatapp.jpg": "/portfolio/static/media/myflyingcatapp.78badf9a.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/runtime-main.209c2d7e.js",
     "static/css/2.11829350.chunk.css",
     "static/js/2.493136c8.chunk.js",
     "static/css/main.caaf56a2.chunk.css",
-    "static/js/main.61f2bca3.chunk.js"
+    "static/js/main.5d3c4b2f.chunk.js"
   ]
 }
