@@ -2,14 +2,21 @@ body{
     background: radial-gradient(#e5e5e5, #ffff, #e5e5e5);
 }
 
-@keyframes Jumpin {
-    0% { opacity: 0; }
-    50% { opacity: 0.5; }
-    100% { opacity: 1; }
-   }
+@keyframes bounceIn {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    50% {
+        transform: scale(0.4);
+      }
+    100% {
+      transform: scale(1);
+    }
+  }
 
 .card{
-    animation: Jumpin 3s;
+    animation: bounceIn 3s;
     width: 20rem;
 }
 

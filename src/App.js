@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, { Fragment ,useEffect, useState} from 'react';
 import './App.css';
 import Cards from './cards/Cards';
 import Header from './Header';
@@ -16,10 +16,10 @@ function App() {
   window.onresize = changeQuery;
   
   return (
-    <div >
+    <Fragment >
       <Header matchesQuery={matchesQuery} />
       <Cards matchesQuery={matchesQuery} />
-    </div>
+    </Fragment>
   );
 }
 
