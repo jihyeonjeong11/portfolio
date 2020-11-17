@@ -1,0 +1,29 @@
+.overlay {
+background-color: rgba(0, 0, 0, 0.4);
+height: 100%;
+left: 0;
+position: absolute;
+top: 0;
+width: 100%;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.section {
+    padding-bottom: 30px;
+    padding-top: 0px !important;
+    position: relative;
+}
+
+.responsive-img{
+    margin: 0 auto;
+    max-height: 100px;
+    padding-bottom: 10px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    max-width: 100px !important;
+}
+
